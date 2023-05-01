@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 121.391 s <<< FAILURE! - in TestSuite
-checkInfoProvisionModel(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 2.074 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkInfoProvisionModel(Hurt_Me_Plenty_Test.java:24)
-
-checkRegion(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkRegion(Hurt_Me_Plenty_Test.java:43)
-
-checkSSD(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkSSD(Hurt_Me_Plenty_Test.java:49)
-
-checkInstanceType(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkInstanceType(Hurt_Me_Plenty_Test.java:56)
-
-checkCommitment(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 0.015 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkCommitment(Hurt_Me_Plenty_Test.java:63)
-
-checkCost(org.module.WebDriver.Hurt_Me_Plenty_Test)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-	at org.module.WebDriver.Hurt_Me_Plenty_Test.checkCost(Hurt_Me_Plenty_Test.java:68)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 113.476 s - in TestSuite

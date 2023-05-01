@@ -8,10 +8,11 @@
           <include name="checkInstanceType"/>
           <include name="checkInfoProvisionModel"/>
           <include name="checkSSD"/>
-          <include name="setup"/>
           <include name="checkCommitment"/>
+          <include name="setup"/>
           <include name="checkCost"/>
           <include name="checkRegion"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
     </classes>

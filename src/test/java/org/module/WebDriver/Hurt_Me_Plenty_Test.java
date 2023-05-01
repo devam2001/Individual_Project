@@ -1,22 +1,35 @@
 package org.module.WebDriver;
 
 import com.module.WebDriver.browser.BrowserFactory;
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
 
-public class Hurt_Me_Plenty_Test extends TestBase{
+public class Hurt_Me_Plenty_Test{
 
     WebDriver driver;
     Hurt_Me_Plenty hurtMePlenty;
 
+    @BeforeClass
+    public void setup() {
+        ResourceBundle bundle = ResourceBundle.getBundle("config");
+        String chrome = bundle.getString("browser1");
+        String edge = bundle.getString("browser2");
+        String link = bundle.getString("GCPlink");
+        driver = BrowserFactory.setupBrowser(chrome,link);
+        driver = BrowserFactory.setupBrowser(edge,link);
+
+        hurtMePlenty = new Hurt_Me_Plenty(driver);
+    }
+
     @Test(priority = 1)
     public void checkInfoProvisionModel() throws InterruptedException {
-
 
         hurtMePlenty = new Hurt_Me_Plenty(driver);
 
@@ -67,6 +80,7 @@ public class Hurt_Me_Plenty_Test extends TestBase{
     public void checkCost()throws InterruptedException {
         String cost = hurtMePlenty.getCost().getText();
         Assert.assertEquals(cost, "Total Estimated Cost: USD 1,081.20 per 1 month");
+        driver.quit();
     }
 
 }
