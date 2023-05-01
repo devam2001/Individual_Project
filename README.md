@@ -1,6 +1,6 @@
 # EPAM Testing Automation Class
 
-This repository contains the individual tasks completed during the EPAM Testing Automation Class.
+This repository contains the **individual tasks** completed during the EPAM Testing Automation Class.
 
 ## Module Maven
 ### Practical Task: I Can Win
