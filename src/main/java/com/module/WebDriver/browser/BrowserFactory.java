@@ -13,10 +13,10 @@ public class BrowserFactory {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
-        /*else if(browser.equalsIgnoreCase("edge")){
+        else if(browser.equalsIgnoreCase("edge")){
             WebDriverManager.edgedriver().setup();
             driver=new EdgeDriver();
-        }*/
+        }
         driver.manage().window().maximize();
         driver.get(url);
         return driver;

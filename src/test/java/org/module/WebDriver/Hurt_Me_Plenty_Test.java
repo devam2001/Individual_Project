@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
 
-public class Hurt_Me_Plenty_Test {
+public class Hurt_Me_Plenty_Test extends TestBase{
 
     WebDriver driver;
     Hurt_Me_Plenty hurtMePlenty;
@@ -17,13 +17,6 @@ public class Hurt_Me_Plenty_Test {
     @Test
     public void loginVerification() throws InterruptedException {
 
-        ResourceBundle bundle = ResourceBundle.getBundle("config");
-        String chrome = bundle.getString("browser1");
-        String edge = bundle.getString("browser2");
-        String link = bundle.getString("GCPlink");
-
-
-        driver = BrowserFactory.setupBrowser(chrome,link);
 
         hurtMePlenty = new Hurt_Me_Plenty(driver);
 
