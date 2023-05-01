@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.module.WebDriver.I_Can_Win_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.832 s - in org.module.WebDriver.I_Can_Win_Test
