@@ -2,7 +2,7 @@
 
 This repository contains the **individual tasks** completed during the EPAM Testing Automation Class.
 
-## Module Maven
+##1. Module Maven
 ### Practical Task: I Can Win
 
 1. Install Maven and make sure it works.
@@ -10,9 +10,9 @@ This repository contains the **individual tasks** completed during the EPAM Test
 3. Find the junit libraries in the folder `c:\Users\User_Name\.m2\repository\` and look at the date when the files were created.
 4. Change the junit version in the file `pom.xml` from 4.12 to 4.11 and collect the project again. Make sure the new version of the library has been added to `.m2/repository`.
 
-## Module Webdriver
+##2. Module Webdriver
 ### Practical Tasks:
-#### I Can Win (mandatory)
+####a. I Can Win (mandatory)
 For this task, please use the Selenium WebDriver power, framework unit test, and Page Object concepts. Automate the following script:
 
 1. Open https://pastebin.com/ or a similar service in any browser.
@@ -21,7 +21,7 @@ For this task, please use the Selenium WebDriver power, framework unit test, and
    - Paste Expiration: "10 Minutes"
    - Paste Name/Title: "helloweb"
 
-#### Hurt Me Plenty (mandatory)
+####b. Hurt Me Plenty (mandatory)
 For this task, please use the Selenium WebDriver power, framework unit test, and Page Object concepts. Automate the following script:
 
 1. Open https://cloud.google.com/.
@@ -47,7 +47,7 @@ For this task, please use the Selenium WebDriver power, framework unit test, and
 
 * If you find that something has changed in the user interface or in the options to choose from, feel free to choose any other elements for this task.
 
-## Module Framework
+##3. Module Framework
 ### Practical Task (mandatory)
 Develop an automation framework for the Hurt Me Plenty task in Webdriver module (previous task module). The final framework should include the following:
 1. A WebDriver manager for managing browser connectors
@@ -59,7 +59,7 @@ Develop an automation framework for the Hurt Me Plenty task in Webdriver module 
 7. The framework should include an option for running with Jenkins and browser parameterization, test suite, environment.
 8. Test results should be displayed on the job chart, and the screenshots should be archived as artifacts.
 
-## Module Continuous Integration with Jenkins
+##4. Module Continuous Integration with Jenkins
 ### Practical Task: I Can Win (mandatory)
 1. Install Jenkins
 2. Create a task which will perform the following:
