@@ -14,7 +14,7 @@ public class Hurt_Me_Plenty_Test extends TestBase{
     WebDriver driver;
     Hurt_Me_Plenty hurtMePlenty;
 
-    @Test
+    @Test(priority = 1)
     public void checkInfoProvisionModel() throws InterruptedException {
 
 
@@ -36,50 +36,34 @@ public class Hurt_Me_Plenty_Test extends TestBase{
 
         String vmClass=hurtMePlenty.getVmClassData().getText();
         Assert.assertEquals(vmClass,"Provisioning model: Regular");
-
-//        String instance = hurtMePlenty.getInstanceType().getText();
-//        Assert.assertEquals(instance, "Instance type: n1-standard-8\n"+
-//                "Committed Use Discount applied");
-//
-//        String ssd = hurtMePlenty.getSsdData().getText();
-//        Assert.assertEquals(ssd, "Local SSD: 2x375 GiB\n" +
-//                "Committed Use Discount applied");
-//
-//        String time = hurtMePlenty.getCommitment().getText();
-//        Assert.assertEquals(time, "Commitment term: 1 Year");
-//
-//        String cost = hurtMePlenty.getCost().getText();
-//        Assert.assertEquals(cost, "Total Estimated Cost: USD 1,081.20 per 1 month");
-
-        driver.quit();
     }
-    @Test
+    @Test(priority = 2)
     public void checkRegion()throws InterruptedException{
 
             String region = hurtMePlenty.getLocation().getText();
             Assert.assertEquals(region,"Region: Frankfurt");
     }
-    @Test
+    @Test(priority = 3)
     public void checkSSD() throws InterruptedException{
 
         String ssd = hurtMePlenty.getSsdData().getText();
         Assert.assertEquals(ssd, "Local SSD: 2x375 GiB\n" +
                 "Committed Use Discount applied");
     }
-    @Test
+    @Test(priority = 4)
     public void checkInstanceType()throws InterruptedException {
 
         String instance = hurtMePlenty.getInstanceType().getText();
         Assert.assertEquals(instance, "Instance type: n1-standard-8\n"+
                 "Committed Use Discount applied");
     }
-    @Test
+    @Test(priority = 5)
     public void checkCommitment()throws InterruptedException {
 
         String time = hurtMePlenty.getCommitment().getText();
         Assert.assertEquals(time, "Commitment term: 1 Year");
     }
-    @Test
+    @Test(priority = 6)
     public void checkCost()throws InterruptedException {
         String cost = hurtMePlenty.getCost().getText();
         Assert.assertEquals(cost, "Total Estimated Cost: USD 1,081.20 per 1 month");

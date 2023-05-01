@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="E:/Maven/Individual_Project(failed)" verbose="0">
+    <classes>
+      <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+        <methods>
+          <include name="checkInstanceType"/>
+          <include name="checkInfoProvisionModel"/>
+          <include name="checkSSD"/>
+          <include name="setup"/>
+          <include name="checkCommitment"/>
+          <include name="checkCost"/>
+          <include name="checkRegion"/>
+        </methods>
+      </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
+    </classes>
+  </test> <!-- E:/Maven/Individual_Project(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
