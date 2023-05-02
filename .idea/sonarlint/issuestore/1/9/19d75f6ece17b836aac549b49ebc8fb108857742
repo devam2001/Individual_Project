@@ -1,0 +1,17 @@
+
+
+java:S1488Ÿ"^Immediately return this expression instead of assigning it to the temporary variable "vmData".(‹Éõ¬ÿÿÿÿÿ8¾ÊÇı0
+y
+java:S1488£"[Immediately return this expression instead of assigning it to the temporary variable "loc".(µÛÅ¸8¿ÊÇı0
+
+java:S1488§"\Immediately return this expression instead of assigning it to the temporary variable "time".(œä¼Éùÿÿÿÿ8ÁÊÇı0
+ƒ
+java:S1488«"`Immediately return this expression instead of assigning it to the temporary variable "instance".(ŒåÍüÿÿÿÿ8ÃÊÇı0
+~
+java:S1488¯"[Immediately return this expression instead of assigning it to the temporary variable "ssd".(çâãüÿÿÿÿ8ÄÊÇı0
+{
+java:S1488³"]Immediately return this expression instead of assigning it to the temporary variable "price".(³É™æ8ÆÊÇı0
+i	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â ‚¿8ÉÊÇı0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şÜÊ8ÊÊÇı0
+o	java:S116"SRename this field "EnterTxt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’üÇ8¢ÌÇı0
+n	java:S116%"RRename this field "GpuType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œã»µ8¢ÌÇı0
