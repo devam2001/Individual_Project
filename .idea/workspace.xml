@@ -16,11 +16,14 @@
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aa0e1176eb661d17c29e6c6e9e9ea4109a4c304" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5d1002bf1b99f35464ff5b84c015d422667db30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9aa0e1176eb661d17c29e6c6e9e9ea4109a4c304" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d5d1002bf1b99f35464ff5b84c015d422667db30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/vitalliuss/helloci/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/vitalliuss/helloci/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/Hurt_Me_Plenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/Hurt_Me_Plenty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

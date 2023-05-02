@@ -1,5 +1,6 @@
 package org.module.WebDriver;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,8 +22,7 @@ public class Hurt_Me_Plenty {
     private WebElement compEgin;
     @FindBy(xpath = "/html[1]/body[1]/md-content[1]/md-card[1]/div[1]/md-card-content[1]/div[2]/div[1]/md-card[1]/md-card-content[1]/div[1]/div[1]/form[1]/div[1]/div[1]/md-input-container[1]/input[1]")
     private WebElement numOfInstances;
-    @FindBy(xpath = "//*[@id=\"input_97\"]")
-    private WebElement whtInstancesFor;
+    By whtInstancesFor= By.xpath("//*[@id=\"input_97\"]");
     @FindBy(xpath="//md-select[@name='series']/parent::md-input-container")
     private WebElement series;
     @FindBy(xpath="//div[contains(text(), \"N1\")]")
@@ -110,8 +110,8 @@ public class Hurt_Me_Plenty {
         numOfInstances.sendKeys("4");
         TimeUnit.SECONDS.sleep(2);
 
-        whtInstancesFor.click();
-        whtInstancesFor.sendKeys("leave blank");
+        driver.findElement(whtInstancesFor).click();
+        driver.findElement(whtInstancesFor).sendKeys(" ");
         TimeUnit.SECONDS.sleep(2);
 
         series.click();
