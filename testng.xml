@@ -12,21 +12,36 @@
                     <include name="testAnotherClass"/>
                 </methods>
             </class>
-            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
-                <methods>
-                    <include name="checkInfoProvisionModel"/>
-                    <include name="checkRegion"/>
-                    <include name="checkSSD"/>
-                    <include name="checkInstanceType"/>
-                    <include name="checkCommitment"/>
-                    <include name="checkCost"/>
-                </methods>
-            </class>
+<!--            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">-->
+<!--                <methods>-->
+<!--                    <include name="checkInfoProvisionModel"/>-->
+<!--                    <include name="checkRegion"/>-->
+<!--                    <include name="checkSSD"/>-->
+<!--                    <include name="checkInstanceType"/>-->
+<!--                    <include name="checkCommitment"/>-->
+<!--                    <include name="checkCost"/>-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="org.module.WebDriver.I_Can_Win_Test">
                 <methods>
                     <include name="loginVerification"/>
                 </methods>
             </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="E:/Maven/Individual_Projec">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://cloud.google.com/"></parameter>
+        <classes>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="test2">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="url" value="https://cloud.google.com/"></parameter>
+        <classes>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test"></class>
         </classes>
     </test>
 </suite>

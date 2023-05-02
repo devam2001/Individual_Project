@@ -1,47 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T09:35:29 IST" name="All Test Suite" finished-at="2023-05-02T09:38:07 IST" duration-ms="158132">
+  <suite started-at="2023-05-02T11:44:43 IST" name="All Test Suite" finished-at="2023-05-02T11:47:55 IST" duration-ms="192236">
     <groups>
     </groups>
-    <test started-at="2023-05-02T09:35:29 IST" name="E:/Maven/Individual_Project" finished-at="2023-05-02T09:38:07 IST" duration-ms="158132">
-      <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:35:29 IST" name="setup" finished-at="2023-05-02T09:35:56 IST" duration-ms="27291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkInfoProvisionModel()[pri:1, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:35:56 IST" name="checkInfoProvisionModel" finished-at="2023-05-02T09:37:24 IST" duration-ms="87662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkInfoProvisionModel -->
-        <test-method signature="checkRegion()[pri:2, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:37:24 IST" name="checkRegion" finished-at="2023-05-02T09:37:24 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkRegion -->
-        <test-method signature="checkSSD()[pri:3, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:37:24 IST" name="checkSSD" finished-at="2023-05-02T09:37:24 IST" duration-ms="94" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSSD -->
-        <test-method signature="checkInstanceType()[pri:4, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:37:24 IST" name="checkInstanceType" finished-at="2023-05-02T09:37:24 IST" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkInstanceType -->
-        <test-method signature="checkCommitment()[pri:5, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:37:24 IST" name="checkCommitment" finished-at="2023-05-02T09:37:24 IST" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCommitment -->
-        <test-method signature="checkCost()[pri:6, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@35ef1869]" started-at="2023-05-02T09:37:24 IST" name="checkCost" finished-at="2023-05-02T09:37:26 IST" duration-ms="2230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCost -->
-      </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
+    <test started-at="2023-05-02T11:44:43 IST" name="E:/Maven/Individual_Project" finished-at="2023-05-02T11:45:09 IST" duration-ms="26096">
       <class name="org.module.WebDriver.I_Can_Win_Test">
-        <test-method signature="loginVerification()[pri:0, instance:org.module.WebDriver.I_Can_Win_Test@243c4f91]" started-at="2023-05-02T09:37:26 IST" name="loginVerification" finished-at="2023-05-02T09:38:07 IST" duration-ms="40645" status="PASS">
+        <test-method signature="loginVerification()[pri:0, instance:org.module.WebDriver.I_Can_Win_Test@e056f20]" started-at="2023-05-02T11:44:43 IST" name="loginVerification" finished-at="2023-05-02T11:45:09 IST" duration-ms="26050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginVerification -->
       </class> <!-- org.module.WebDriver.I_Can_Win_Test -->
     </test> <!-- E:/Maven/Individual_Project -->
+    <test started-at="2023-05-02T11:45:09 IST" name="E:/Maven/Individual_Projec" finished-at="2023-05-02T11:46:31 IST" duration-ms="82319">
+      <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:45:09 IST" name="setup" finished-at="2023-05-02T11:45:16 IST" duration-ms="6933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cloud.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkInfoProvisionModel()[pri:1, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:45:16 IST" name="checkInfoProvisionModel" finished-at="2023-05-02T11:46:30 IST" duration-ms="74759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInfoProvisionModel -->
+        <test-method signature="checkRegion()[pri:2, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:46:30 IST" name="checkRegion" finished-at="2023-05-02T11:46:30 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegion -->
+        <test-method signature="checkSSD()[pri:3, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:46:30 IST" name="checkSSD" finished-at="2023-05-02T11:46:30 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSSD -->
+        <test-method signature="checkInstanceType()[pri:4, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:46:30 IST" name="checkInstanceType" finished-at="2023-05-02T11:46:30 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInstanceType -->
+        <test-method signature="checkCommitment()[pri:5, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:46:30 IST" name="checkCommitment" finished-at="2023-05-02T11:46:31 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCommitment -->
+        <test-method signature="checkCost()[pri:6, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@3ce1e309]" started-at="2023-05-02T11:46:31 IST" name="checkCost" finished-at="2023-05-02T11:46:31 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCost -->
+      </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
+    </test> <!-- E:/Maven/Individual_Projec -->
+    <test started-at="2023-05-02T11:46:31 IST" name="test2" finished-at="2023-05-02T11:47:55 IST" duration-ms="83790">
+      <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:46:31 IST" name="setup" finished-at="2023-05-02T11:46:39 IST" duration-ms="8335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cloud.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkInfoProvisionModel()[pri:1, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:46:39 IST" name="checkInfoProvisionModel" finished-at="2023-05-02T11:47:54 IST" duration-ms="74656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInfoProvisionModel -->
+        <test-method signature="checkRegion()[pri:2, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:47:54 IST" name="checkRegion" finished-at="2023-05-02T11:47:54 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegion -->
+        <test-method signature="checkSSD()[pri:3, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:47:54 IST" name="checkSSD" finished-at="2023-05-02T11:47:54 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSSD -->
+        <test-method signature="checkInstanceType()[pri:4, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:47:54 IST" name="checkInstanceType" finished-at="2023-05-02T11:47:54 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInstanceType -->
+        <test-method signature="checkCommitment()[pri:5, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:47:54 IST" name="checkCommitment" finished-at="2023-05-02T11:47:54 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCommitment -->
+        <test-method signature="checkCost()[pri:6, instance:org.module.WebDriver.Hurt_Me_Plenty_Test@7c729a55]" started-at="2023-05-02T11:47:54 IST" name="checkCost" finished-at="2023-05-02T11:47:55 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCost -->
+      </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
+    </test> <!-- test2 -->
   </suite> <!-- All Test Suite -->
 </testng-results>

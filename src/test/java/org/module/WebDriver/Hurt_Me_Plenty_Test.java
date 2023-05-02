@@ -5,6 +5,7 @@ import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.util.ResourceBundle;
@@ -17,14 +18,9 @@ public class Hurt_Me_Plenty_Test{
     Hurt_Me_Plenty hurtMePlenty;
 
     @BeforeClass
-    public void setup() {
-        ResourceBundle bundle = ResourceBundle.getBundle("config");
-        String chrome = bundle.getString("browser1");
-        String edge = bundle.getString("browser2");
-        String link = bundle.getString("GCPlink");
-        driver = BrowserFactory.setupBrowser(chrome,link);
-        driver = BrowserFactory.setupBrowser(edge,link);
-
+    @Parameters({"browser","url"})
+    public void setup(String browser, String url) {
+        driver = BrowserFactory.setupBrowser(browser, url);
         hurtMePlenty = new Hurt_Me_Plenty(driver);
     }
 
