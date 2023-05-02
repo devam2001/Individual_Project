@@ -5,32 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82b08510-9b51-434b-818f-460fd4388b33" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19d75f6ece17b836aac549b49ebc8fb108857742" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a6a7279971f1dc20ebf1f08b75158c6181d4e42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1f18280a1da5417fd4e0092fe9b76db72409638" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19d75f6ece17b836aac549b49ebc8fb108857742" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/a/1a6a7279971f1dc20ebf1f08b75158c6181d4e42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/2/522a7a4e21649af06297e31a9e33f13bb4fd3022" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d1f18280a1da5417fd4e0092fe9b76db72409638" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/module/WebDriver/browser/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/module/WebDriver/browser/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/Hurt_Me_Plenty_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/Hurt_Me_Plenty_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/module/WebDriver/browser/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/module/WebDriver/browser/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.Hurt_Me_Plenty_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.Hurt_Me_Plenty_Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.I_Can_Win_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.I_Can_Win_Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/Hurt_Me_Plenty_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/Hurt_Me_Plenty_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/vitalliuss/helloci/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/vitalliuss/helloci/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
