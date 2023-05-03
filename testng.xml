@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="E:/Maven/Individual_Project">
+<suite name="All Test Suite" thread-count="6">
+    <test verbose="2" preserve-order="true" name="I Can Win(Paste bin)">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="org.module.WebDriver.I_Can_Win_Test">
                 <methods>
-                    <include name="loginVerification"/>
+                    <include name="pastefunc"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test verbose="2" preserve-order="true" name="E:/Maven/Individual_Projec">
+
+    <test verbose="2" preserve-order="true" name="Google Cloud Price Calc - Chrome">
         <parameter name="browser" value="chrome"></parameter>
-        <parameter name="url" value="https://cloud.google.com/"></parameter>
         <classes>
-            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test"></class>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+                <methods>
+                    <include name="google_cloud_price_calc"/>
+                </methods>
+            </class>
         </classes>
     </test>
-
-    <test verbose="2" preserve-order="true" name="test2">
+    <test verbose="2" preserve-order="true" name="Google Cloud Price Calc - Edge">
         <parameter name="browser" value="edge"></parameter>
-        <parameter name="url" value="https://cloud.google.com/"></parameter>
         <classes>
-            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test"></class>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+                <methods>
+                    <include name="google_cloud_price_calc"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

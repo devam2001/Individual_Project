@@ -1,34 +1,15 @@
 package org.module.WebDriver;
 
-import com.module.WebDriver.browser.BrowserFactory;
-import org.junit.AfterClass;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
-
-public class Hurt_Me_Plenty_Test{
-
-    WebDriver driver;
-    Hurt_Me_Plenty hurtMePlenty;
-
-    @BeforeClass
-    @Parameters({"browser","url"})
-    public void setup(String browser, String url) {
-        driver = BrowserFactory.setupBrowser(browser, url);
-        hurtMePlenty = new Hurt_Me_Plenty(driver);
-    }
+public class Hurt_Me_Plenty_Test extends TestBase{
 
     @Test(priority = 1)
-    public void checkInfoProvisionModel() throws InterruptedException {
+    public void google_cloud_price_calc() throws InterruptedException {
 
-        hurtMePlenty = new Hurt_Me_Plenty(driver);
-
+        Hurt_Me_Plenty.openGcpPage(url);
         TimeUnit.SECONDS.sleep(2);
         hurtMePlenty.clickSearch();
         TimeUnit.SECONDS.sleep(2);
@@ -45,38 +26,24 @@ public class Hurt_Me_Plenty_Test{
 
         String vmClass=hurtMePlenty.getVmClassData().getText();
         Assert.assertEquals(vmClass,"Provisioning model: Regular");
-    }
-    @Test(priority = 2)
-    public void checkRegion()throws InterruptedException{
 
-            String region = hurtMePlenty.getLocation().getText();
-            Assert.assertEquals(region,"Region: Frankfurt");
-    }
-    @Test(priority = 3)
-    public void checkSSD() throws InterruptedException{
+        String region = hurtMePlenty.getLocation().getText();
+        Assert.assertEquals(region,"Region: Frankfurt");
 
         String ssd = hurtMePlenty.getSsdData().getText();
         Assert.assertEquals(ssd, "Local SSD: 2x375 GiB\n" +
                 "Committed Use Discount applied");
-    }
-    @Test(priority = 4)
-    public void checkInstanceType()throws InterruptedException {
 
         String instance = hurtMePlenty.getInstanceType().getText();
         Assert.assertEquals(instance, "Instance type: n1-standard-8\n"+
                 "Committed Use Discount applied");
-    }
-    @Test(priority = 5)
-    public void checkCommitment()throws InterruptedException {
 
         String time = hurtMePlenty.getCommitment().getText();
         Assert.assertEquals(time, "Commitment term: 1 Year");
-    }
-    @Test(priority = 6)
-    public void checkCost()throws InterruptedException {
+
         String cost = hurtMePlenty.getCost().getText();
         Assert.assertEquals(cost, "Total Estimated Cost: USD 1,081.20 per 1 month");
-        driver.quit();
+
     }
 
 }

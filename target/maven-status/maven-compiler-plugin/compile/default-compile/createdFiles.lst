@@ -1,5 +1,3 @@
 org\module\WebDriver\I_Can_Win.class
-com\github\vitalliuss\helloci\EmptyClass.class
+org\module\WebDriver\PropertiesOperation.class
 org\module\WebDriver\Hurt_Me_Plenty.class
-com\module\WebDriver\browser\BrowserFactory.class
-com\github\vitalliuss\helloci\App.class

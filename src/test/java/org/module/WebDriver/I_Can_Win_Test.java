@@ -1,21 +1,18 @@
 package org.module.WebDriver;
 
-import com.module.WebDriver.browser.BrowserFactory;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
-public class I_Can_Win_Test {
+public class I_Can_Win_Test extends TestBase{
 
-    WebDriver driver;
-    I_Can_Win iCanWin;
     @Test
-    public void loginVerification() throws InterruptedException {
-        driver = BrowserFactory.setupBrowser("chrome","https://pastebin.com/");
-        iCanWin = new I_Can_Win(driver);
+    public void pastefunc() throws InterruptedException{
 
+        I_Can_Win.openBinPage();
         TimeUnit.SECONDS.sleep(2);
         iCanWin.clickTextArea();
         TimeUnit.SECONDS.sleep(3);

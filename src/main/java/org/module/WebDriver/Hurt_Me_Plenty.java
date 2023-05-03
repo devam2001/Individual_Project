@@ -8,8 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class Hurt_Me_Plenty {
-    private WebDriver driver;
-
+    private static WebDriver driver;
     @FindBy(xpath = "//form[contains(@class,'search-form')]")
     private WebElement searchBttn;
     @FindBy(xpath = "//input[@placeholder = 'Search']")
@@ -73,6 +72,10 @@ public class Hurt_Me_Plenty {
     public Hurt_Me_Plenty(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+    public static void openGcpPage(String url){
+        driver.get(url);
+
     }
 
     public void clickSearch(){

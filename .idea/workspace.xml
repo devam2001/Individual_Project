@@ -16,14 +16,61 @@
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aa0e1176eb661d17c29e6c6e9e9ea4109a4c304" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5d1002bf1b99f35464ff5b84c015d422667db30" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/smokeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/PropertiesOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/TestListner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6db897a726f389307633f22c3b03ff1c9709d9ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4e629074b25c0753e9362832bb4529f9072d194" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9aa0e1176eb661d17c29e6c6e9e9ea4109a4c304" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/5/d5d1002bf1b99f35464ff5b84c015d422667db30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/d/6db897a726f389307633f22c3b03ff1c9709d9ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c4e629074b25c0753e9362832bb4529f9072d194" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/module/WebDriver/browser/BrowserFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/Hurt_Me_Plenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/Hurt_Me_Plenty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/I_Can_Win.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/I_Can_Win.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/Hurt_Me_Plenty_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/Hurt_Me_Plenty_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/I_Can_Win_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/I_Can_Win_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/vitalliuss/helloci/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/vitalliuss/helloci/EmptyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/module/WebDriver/browser/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/module/WebDriver/Hurt_Me_Plenty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/module/WebDriver/Hurt_Me_Plenty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/module/WebDriver/I_Can_Win.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/module/WebDriver/I_Can_Win.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-05-02T11-00-50_599-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-05-02T11-14-25_753-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Projec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Projec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_Individual_Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/test2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.Hurt_Me_Plenty_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.Hurt_Me_Plenty_Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.I_Can_Win_Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.module.WebDriver.I_Can_Win_Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/E__Maven_Individual_Projec.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/E__Maven_Individual_Project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/test2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/vitalliuss/helloci/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/Hurt_Me_Plenty_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/Hurt_Me_Plenty_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/I_Can_Win_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/module/WebDriver/I_Can_Win_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +113,7 @@
       <recent name="com.github.vitalliuss.helloci" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Hurt_Me_Plenty_Test">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IndividualProject" />
       <extension name="coverage">
@@ -86,7 +133,7 @@
       <module name="Individual-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.module.WebDriver.*" />
+          <option name="PATTERN" value="org.module.WebDriver.TestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +148,7 @@
       <module name="Individual-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.module.WebDriver.*" />
+          <option name="PATTERN" value="org.module.WebDriver.TestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,27 +160,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_Can_Win_Test.loginVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Individual-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.module.WebDriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.module.WebDriver" />
-      <option name="MAIN_CLASS_NAME" value="org.module.WebDriver.I_Can_Win_Test" />
-      <option name="METHOD_NAME" value="loginVerification" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Hurt_Me_Plenty_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IndividualProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.module.WebDriver.*" />
+          <option name="PATTERN" value="org.module.WebDriver.TestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +177,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="I_Can_Win_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IndividualProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.module.WebDriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.module.WebDriver" />
+      <option name="MAIN_CLASS_NAME" value="org.module.WebDriver.I_Can_Win_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Hurt_Me_Plenty_Test" />
+        <item itemvalue="TestNG.I_Can_Win_Test" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.Hurt_Me_Plenty_Test" />
         <item itemvalue="JUnit.Hurt_Me_Plenty_Test.loginVerification" />
-        <item itemvalue="JUnit.I_Can_Win_Test.loginVerification" />
       </list>
     </recent_temporary>
   </component>

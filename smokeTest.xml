@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" thread-count="6" >
+    <test verbose="1" preserve-order="true" name="GoogleCloudPricingCalc Chrome Test" >
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://cloud.google.com/"/>
+        <classes>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+                <methods>
+                    <include name="checkInfoProvisionModel"/>
+                    <include name="checkRegion"/>
+                    <include name="checkSSD"/>
+                    <include name="checkInstanceType"/>
+                    <include name="checkCommitment"/>
+                    <include name="checkCost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="GoogleCloudPricingCalc Edge Test" >
+        <parameter name="browser" value="edge"/>
+        <parameter name="url" value="https://cloud.google.com/"/>
+        <classes>
+            <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
+                <methods>
+                    <include name="checkInfoProvisionModel"/>
+                    <include name="checkRegion"/>
+                    <include name="checkSSD"/>
+                    <include name="checkInstanceType"/>
+                    <include name="checkCommitment"/>
+                    <include name="checkCost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

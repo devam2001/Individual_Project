@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="E:/Maven/Individual_Projec(failed)" verbose="0">
+<suite thread-count="6" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="6" name="Google Cloud Price Calc - Chrome(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.google.com/"/>
     <classes>
       <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
         <methods>
           <include name="checkInstanceType"/>
-          <include name="checkInfoProvisionModel"/>
+          <include name="setDriver"/>
           <include name="checkSSD"/>
+          <include name="closeDriver"/>
           <include name="checkCommitment"/>
           <include name="checkCost"/>
           <include name="checkRegion"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
     </classes>
-  </test> <!-- E:/Maven/Individual_Projec(failed) -->
-  <test thread-count="5" name="test2(failed)" verbose="0">
+  </test> <!-- Google Cloud Price Calc - Chrome(failed) -->
+  <test thread-count="6" name="Google Cloud Price Calc - Edge(failed)" verbose="0">
     <parameter name="browser" value="edge"/>
-    <parameter name="url" value="https://www.google.com/"/>
     <classes>
       <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
         <methods>
-          <include name="checkInfoProvisionModel"/>
           <include name="checkInstanceType"/>
+          <include name="setDriver"/>
           <include name="checkSSD"/>
+          <include name="closeDriver"/>
           <include name="checkCommitment"/>
           <include name="checkCost"/>
           <include name="checkRegion"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- org.module.WebDriver.Hurt_Me_Plenty_Test -->
     </classes>
-  </test> <!-- test2(failed) -->
+  </test> <!-- Google Cloud Price Calc - Edge(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

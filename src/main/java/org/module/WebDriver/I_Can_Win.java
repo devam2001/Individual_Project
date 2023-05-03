@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class I_Can_Win {
-    private WebDriver driver;
+    private static WebDriver driver;
 
     @FindBy(xpath = "//div[contains(@class,'required')]/textarea[contains(@class,'textarea')]")
     private WebElement textArea;
@@ -32,6 +32,9 @@ public class I_Can_Win {
     public I_Can_Win(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+    public static void openBinPage(){
+        driver.get("https://pastebin.com/");
     }
 
     public void clickTextArea(){
