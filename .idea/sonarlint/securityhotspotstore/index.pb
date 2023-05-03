@@ -7,5 +7,3 @@ q
 ATask1/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java,f\8\f804db7829c2b1c1131bccf104651643a06d3267
 n
 >Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java,c\e\ceecdf9f40b9630963bb5bcd978908edaa68232f
-=
-smokeTest.xml,9\0\9050cc7fed4867daa3e043da5efc8f2052558fe3

@@ -7,5 +7,3 @@ n
 >Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java,c\e\ceecdf9f40b9630963bb5bcd978908edaa68232f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-=
-smokeTest.xml,9\0\9050cc7fed4867daa3e043da5efc8f2052558fe3

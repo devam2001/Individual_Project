@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" thread-count="6">
+<suite name="All Test Suite" thread-count="6" parallel="true">
     <test verbose="2" preserve-order="true" name="I Can Win(Paste bin)">
-        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="org.module.WebDriver.I_Can_Win_Test">
                 <methods>
@@ -11,9 +11,8 @@
             </class>
         </classes>
     </test>
-
     <test verbose="2" preserve-order="true" name="Google Cloud Price Calc - Chrome">
-        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
                 <methods>
@@ -23,7 +22,7 @@
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="Google Cloud Price Calc - Edge">
-        <parameter name="browser" value="edge"></parameter>
+        <parameter name="browser" value="edge"/>
         <classes>
             <class name="org.module.WebDriver.Hurt_Me_Plenty_Test">
                 <methods>
