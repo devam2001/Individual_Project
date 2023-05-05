@@ -16,13 +16,11 @@
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/main/java/com/github/vitalliuss/helloci/EmptyClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Task1/src/test/java/com/github/vitalliuss/helloci/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9050cc7fed4867daa3e043da5efc8f2052558fe3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/9050cc7fed4867daa3e043da5efc8f2052558fe3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smokeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smokeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/I_Can_Win.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/module/WebDriver/I_Can_Win.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/I_Can_Win_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/module/WebDriver/I_Can_Win_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

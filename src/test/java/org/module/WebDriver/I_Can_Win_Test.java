@@ -1,11 +1,8 @@
 package org.module.WebDriver;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 
 public class I_Can_Win_Test extends TestBase{
 
